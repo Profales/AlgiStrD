@@ -32,6 +32,5 @@ private:
 	};
 	Node* head;
 	Node* tail;
-	Node* current;
 	size_t size;
 };
