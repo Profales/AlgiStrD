@@ -21,7 +21,6 @@ LinkedList::LinkedList()
 {
 	head = nullptr;
 	tail = nullptr;
-	current = nullptr;
 	size = 0;
 }
 
@@ -36,7 +35,6 @@ void LinkedList::push_back(int newElem)
 	{
 		head = new Node(newElem);
 		tail = head;
-		current = head;
 		size++;
 	}
 	else
@@ -54,7 +52,6 @@ void LinkedList::push_front(int newElem)
 	{
 		head = new Node(newElem);
 		tail = head;
-		current = head;
 		size++;
 	}
 	else
@@ -75,7 +72,6 @@ void LinkedList::pop_back()
 		delete head;
 		head = nullptr;
 		tail = nullptr;
-		current = nullptr;
 		size = 0;
 	}
 	else
@@ -96,7 +92,6 @@ void LinkedList::pop_front()
 		delete head;
 		head = nullptr;
 		tail = nullptr;
-		current = nullptr;
 		size = 0;
 	}
 	else
@@ -115,7 +110,7 @@ void LinkedList::insert(int newElem, size_t index)
 		throw out_of_range("This index is greater than size of that list.");
 	}
 	size_t counter = 0;
-	current = head;
+	Node* current = head;
 	while (counter != index)
 	{
 		current = current->next;
@@ -138,7 +133,7 @@ int LinkedList::at(size_t index)
 	else 
 	{
 		size_t counter = 0;
-		current = head;
+		Node* current = head;
 		while (counter != index) 
 		{
 			current = current->next;
@@ -161,7 +156,7 @@ void LinkedList::remove(size_t index)
 	else
 	{
 		size_t counter = 0;
-		current = head;
+		Node* current = head;
 		while (counter != index) 
 		{
 			current = current->next;
@@ -171,7 +166,6 @@ void LinkedList::remove(size_t index)
 		current->prev->next = current->next;
 		size--;
 		delete current;
-		current = nullptr;
 	}
 }
 
@@ -188,7 +182,7 @@ void LinkedList::print_to_console()
 	}
 	else
 	{
-		current = head;
+		Node* current = head;
 		while (current != nullptr)
 		{
 			cout << current->data << ' ';
@@ -215,7 +209,7 @@ void LinkedList::set(size_t index, int newElem)
 	else 
 	{
 		size_t counter = 0;
-		current = head;
+		Node* current = head;
 		while (counter != index)
 		{
 			current = current->next;
@@ -240,7 +234,7 @@ void LinkedList::push_back_list(LinkedList* secondList)
 		else
 		{
 			size_t counter = 0;
-			current = secondList->head;
+			Node* current = secondList->head;
 			while (counter < secondList->size)
 			{
 				push_back(current->data);
