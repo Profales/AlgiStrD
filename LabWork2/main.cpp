@@ -8,17 +8,6 @@ int main()
 {
 	int* array;
 	int n = 10;
-	array = new int[n];
-	for (int i = 0; i < n; i++)
-	{
-		array[i] = rand();
-	}
-	BubbleSort(array, n);
-	for (int i = 0; i < n; i++)
-	{
-		cout << array[i] << ' ';
-	}
-	cout << endl;
 	clock_t time = 0;
 	double time_array[10];
 	double sum_time = 0;
