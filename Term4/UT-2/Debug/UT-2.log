@@ -1,0 +1,6 @@
+﻿  UT-2.cpp
+C:\Users\Paul\source\repos\Term4_LabWork2\DeCodesAndEnCodes.h(122,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Paul\source\repos\Term4_LabWork2\DeCodesAndEnCodes.h(135,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Paul\source\repos\Term4_LabWork2\DeCodesAndEnCodes.h(140,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Paul\source\repos\UT-2\UT-2.cpp(39,23): warning C4018: <: несоответствие типов со знаком и без знака
+  UT-2.vcxproj -> C:\Users\Paul\source\repos\Term4_LabWork2\Debug\UT-2.dll
