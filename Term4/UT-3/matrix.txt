@@ -1,0 +1,5 @@
+Gatchina;Vyborg;10;20
+Vyborg;Tikhvin;40;35
+Gatchina;Tikhvin;14;N/A
+Ivangorod;Tikhvin;13;8
+Ivangorod;Gatchina;N/A;20
