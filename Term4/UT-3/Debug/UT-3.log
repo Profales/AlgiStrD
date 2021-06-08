@@ -1,0 +1,7 @@
+﻿  UT-3.cpp
+C:\Users\Paul\source\repos\Term4_LabWork3\BellmanFordAlgo.h(126,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Paul\source\repos\Term4_LabWork3\BellmanFordAlgo.h(129,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Paul\source\repos\Term4_LabWork3\BellmanFordAlgo.h(150,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Paul\source\repos\Term4_LabWork3\BellmanFordAlgo.h(172,20): warning C4018: <: несоответствие типов со знаком и без знака
+     Создается библиотека C:\Users\Paul\source\repos\Term4_LabWork3\Debug\UT-3.lib и объект C:\Users\Paul\source\repos\Term4_LabWork3\Debug\UT-3.exp
+  UT-3.vcxproj -> C:\Users\Paul\source\repos\Term4_LabWork3\Debug\UT-3.dll
