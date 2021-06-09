@@ -1,0 +1,6 @@
+﻿  Term4_TermWork.cpp
+C:\Users\Paul\source\repos\Term4_TermWork\GraphsAndStuff.h(206,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Paul\source\repos\Term4_TermWork\GraphsAndStuff.h(220,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Paul\source\repos\Term4_TermWork\GraphsAndStuff.h(221,30): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Paul\source\repos\Term4_TermWork\GraphsAndStuff.h(224,27): warning C4018: <: несоответствие типов со знаком и без знака
+  Term4_TermWork.vcxproj -> C:\Users\Paul\source\repos\Term4_TermWork\Debug\Term4_TermWork.exe
